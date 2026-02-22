@@ -1,0 +1,68 @@
+﻿.biography-page{
+    min-height: 100vh;
+    background-color: lightgreen;
+}
+
+h1 {
+    color: green;
+}
+
+.biography-layout-container {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Playwrite NZ Basic", sans-serif;
+    margin: 0 1em;
+    color: darkgreen;
+}
+
+.bio-box{
+    border: solid black 1px;
+    text-align: center;
+}
+
+.sidebar-container{
+    grid-row: span 2;
+    border: solid black 1px;
+    text-align: center;
+    margin-left: 1.1em;
+    display: grid; 
+    grid-template-rows: auto 1fr auto;
+}
+
+.profile-details-box{
+}
+
+.link-buttons button {
+    border-radius: 15%;
+    background-color: limegreen;
+    margin-bottom: 1em;
+}
+.image-container img{
+  width: 100%;  
+}
+
+.info-box{
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.box-image {
+    height: 20em;
+}
+
+.other-side{
+    font-family: "Playwrite CU Guides", "sans-serif";
+    text-align: center;
+    margin-top: 3em;
+}
+
+.other-side button {
+    color: crimson;
+    background-color: black;
+    border: 2px solid crimson;
+    padding: 15px 32px;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+﻿.eto-layout {
+    min-height: 100vh;
+    background-color: black;
+    color: darkred;
+    text-align: center;
+}
+
+.eto-layout h1 {
+    color: red;
+    font-family: "Nosifer", sans-serif;
+}
+
+.biography-layout-container {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Playwrite NZ Basic", sans-serif;
+    margin: 1em;
+}
+
+.bio-box{
+    border: solid crimson 1px;
+    text-align: center;
+    margin-top: 0.1em;
+}
+
+.sidebar-container{
+    grid-row: span 2;
+    border: solid crimson 1px;
+    text-align: center;
+    margin-left: 1.1em;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.profile-details-box{
+}
+
+.link-buttons button {
+    border-radius: 15%;
+    background-color: black;
+    border-color: crimson;
+    margin-bottom: 1em;
+    color: red;
+}
+.image-container img{
+    width: 100%;
+}
+
+.info-box{
+    border: 1px solid crimson;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.box-image {
+    width: 30em;
+}
+
+.further-depths{
+    font-family: "Playwrite CU Guides", "sans-serif";
+    text-align: center;
+    margin-top: 3em;
+}
+
+.further-depths button {
+    color: crimson;
+    background-color: black;
+    border: 2px solid crimson;
+    padding: 15px 32px;
+    cursor: pointer;
+}

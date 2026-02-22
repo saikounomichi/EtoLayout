@@ -1,0 +1,35 @@
+﻿.personality-page{
+    min-height: 100vh;
+    background-color: lightgreen;
+}
+
+h1 {
+    color: green;
+}
+
+.personality-layout-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+    /*margin: 0 1em;*/
+}
+
+.other-side{
+    font-family: "Playwrite CU Guides", "sans-serif";
+    text-align: center;
+    margin-top: 3em;
+}
+
+.other-side button {
+    color: crimson;
+    background-color: black;
+    border: 2px solid crimson;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+
+.personality-box {
+    margin: 1em 5em;
+    border: solid black 1px;
+}
